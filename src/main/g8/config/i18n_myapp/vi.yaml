@@ -1,0 +1,109 @@
+---
+vi:
+  _name: Tiếng Việt
+
+  remember_login: "Ghi nhớ"
+  signin        : "Đăng nhập"
+  signin_msg    : "Đăng nhập để bắt đầu phiên làm việc"
+  signout       : "Đăng xuất"
+  username      : "Tên đăng nhập"
+  password      : "Mật mã"
+
+  home      : "Trang nhà"
+  dashboard : "Trang chính"
+  my_account: "Tài khoản"
+  search    : "Tìm kiếm"
+  contact   : "Liên hệ"
+
+  actions: "Hành động"
+  edit   : "Chỉnh sửa"
+  delete : "Xoá"
+  save   : "Lưu"
+  reset  : "Hoàn tác"
+  cancel : "Huỷ bỏ"
+
+  profile: "Hồ sơ"
+
+  groups      : "Nhóm người dùng"
+  create_group: "Tạo nhóm mới"
+  delete_group: "Xoá nhóm người dùng"
+  edit_group  : "Cập nhật thông tin nhóm"
+  group_id    : "Định danh"
+  group_name  : "Tên"
+  create_group_successful: "Đã tạo thành công nhóm người dùng '{{.group}}'"
+  delete_group_confirm   : "Bạn có chắc chắn muốn xoá nhóm người dùng '{{.group}}'?"
+  delete_group_successful: "Nhóm người dùng '{{.group}}' đã được xoá khỏi hệ thống"
+  update_group_successful: "Nhóm người dùng '{{.group}}' đã được cập nhật thành công"
+  error_empty_group_id   : "Định danh của group không được để trống"
+  error_group_existed    : "Nhóm người dùng '{{.group}}' đã tồn tại"
+  error_group_not_found  : "Nhóm người dùng '{{.group}}' không tồn tại"
+
+  users        : "Tài khoản"
+  create_user  : "Tạo tài khoản"
+  delete_user  : "Xoá tài khoản"
+  edit_user    : "Cập nhật thông tin tài khoản"
+  user_username: "Tên đăng nhập"
+  user_name    : "Tên hiển thị"
+  user_group   : "Nhóm"
+  user_password: "Mật mã"
+  user_confirmed_password: "Xác nhận lại mật mã"
+  create_user_successful    : "Đã tạo thành công tài khoản cho người dùng '{{.user}}'"
+  delete_user_confirm       : "Bạn có chắc chắn muốn xoá tài khoản người dùng '{{.user}}'?"
+  delete_user_successful    : "Tài khoản '{{.user}}' đã được xoá khỏi hệ thống"
+  update_user_successful    : "Tài khoản '{{.user}}' đã được cập nhật thành công"
+  error_empty_user_username : "Định danh của tài khoản không được để trống"
+  error_user_existed        : "Tài khoản '{{.user}}' đã tồn tại"
+  error_empty_user_password : "Mật mã không được để trống"
+  error_mismatched_passwords: "Mật mã nhập 2 lần không khớp nhau"
+
+  change_password           : "Thay đổi mật mã"
+  change_password_successful: "Mật mã đã được cập nhật thành công"
+  change_password_msg       : "Đổi mật mã: nhập mật mã cũ để xác thực và mật mã mới để đổi"
+  current_password          : "Mật mã hiện tại"
+  new_password              : "Mật mã mới"
+  confirmed_new_password    : "Xác nhận mật mã mới"
+
+  error_no_permission: "Bạn không được cấp quyền để thực hiện thao tác này"
+  error_delete_system_group: "Không thể xoá nhóm người dùng hệ thống"
+  error_change_password_system_user_demo: "Phiên bản demo: không cho phép thay đổi mật mã của tài khoản quản trị viên hệ thống"
+
+  error_signin_failed: "Đăng nhập thất bại: mật mã không đúng"
+  error_user_not_found: "Tài khoản '{{.user}}' không tồn tại"
+
+  ## 0xx = other db errors
+  #  001: general database error
+  error_db_001: "Lỗi CSDL (001:{{.err}})"
+
+  ## 1xx = user account related errors
+  #  101: error while fetching user data from database
+  error_db_101: "Lỗi CSDL (101:{{.err}})"
+  #  111: error while updating user data
+  error_db_111: "Lỗi CSDL (111:{{.err}})"
+  #  121: error while creating new user
+  error_db_121: "Lỗi CSDL (121:{{.err}})"
+  #  131: error while deleting existing user
+  error_db_131: "Lỗi CSDL (131:{{.err}})"
+
+  ## 2xx = app related errors
+  #  201: error while fetching app data from database
+  error_db_201: "Lỗi CSDL (201:{{.err}})"
+  #  211: error while updating app data
+  error_db_211: "Lỗi CSDL (211:{{.err}})"
+  #  221: error while creating new app
+  error_db_221: "Lỗi CSDL (221:{{.err}})"
+  #  231: error while deleting existing app
+  error_db_231: "Lỗi CSDL (231:{{.err}})"
+
+  ## 3xx = group related errors
+  #  301: error while fetching group data from database
+  error_db_301: "Lỗi CSDL (301:{{.err}})"
+  #  311: error while updating group data
+  error_db_311: "Lỗi CSDL (311:{{.err}})"
+  #  321: error while creating new group
+  error_db_321: "Lỗi CSDL (321:{{.err}})"
+  #  331: error while deleting existing group
+  error_db_331: "Lỗi CSDL (331:{{.err}})"
+
+  ## 4xx = user input related errors
+  #  400: error while parsing submit form
+  error_form_400: "Lỗi dữ liệu nhập (400:{{.err}})"
